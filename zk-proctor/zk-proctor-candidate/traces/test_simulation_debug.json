@@ -1,0 +1,36 @@
+{
+  "profile": "LeetCode Coding Challenge",
+  "summary": {
+    "profile": "LeetCode Coding Challenge",
+    "total_events": 181,
+    "compliant_events": 180,
+    "compliance_ratio": 0.994475138121547,
+    "total_violations": 1,
+    "critical_violations": 1,
+    "is_valid": false,
+    "duration_seconds": 31.0
+  },
+  "incidents": [
+    {
+      "constraint": "domain_whitelist",
+      "severity": "critical",
+      "detected": "chatgpt.com",
+      "message": "Navigation to unauthorized domain detected",
+      "first_seen": 1031.0,
+      "first_seen_human": "03:17:11",
+      "last_seen_human": "03:17:11",
+      "duration_seconds": 0.0,
+      "event_count": 1
+    }
+  ],
+  "all_violations": [
+    {
+      "timestamp": 1031.0,
+      "time_human": "03:17:11",
+      "constraint": "domain_whitelist",
+      "severity": "critical",
+      "message": "Navigation to unauthorized domain detected",
+      "detected": "chatgpt.com"
+    }
+  ]
+}

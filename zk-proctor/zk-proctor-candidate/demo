@@ -1,0 +1,74 @@
+#!/bin/bash
+DIR="$(cd "$(dirname "$0")" && pwd)"
+cd "$DIR"
+
+setup_venv() {
+  if [ ! -d "$DIR/venv" ]; then
+    echo "  Creating virtual environment..."
+    python3 -m venv "$DIR/venv"
+    source "$DIR/venv/bin/activate"
+    echo "  Installing dependencies..."
+    pip install psutil websockets --quiet
+  else
+    source "$DIR/venv/bin/activate"
+  fi
+}
+
+case "$1" in
+  test)
+    setup_venv
+    echo ""
+    echo "  ZK-Proctor — Running All Tests"
+    echo ""
+    python3 src/test_constraints.py
+    echo ""
+    python3 src/test_stark.py
+    echo ""
+    python3 src/test_integrated.py
+    ;;
+  start)
+    setup_venv
+    echo ""
+    echo "  ZK-Proctor — Starting Exam Session"
+    echo ""
+    echo "  Navigate in Chrome to test:"
+    echo "    leetcode.com     → should be OK"
+    echo "    chatgpt.com      → should be BLOCKED"
+    echo ""
+    echo "  Press Ctrl+C to stop and generate proof."
+    echo ""
+    CONFIG="${2:-configs/default_leetcode.json}"
+    python3 src/session.py --config "$CONFIG" --duration 0 --debug
+    ;;
+  verify)
+    setup_venv
+    PROOF=$(ls -t proofs/*_stark_proof.json 2>/dev/null | head -1)
+    if [ -z "$PROOF" ]; then
+      echo "No proof found in proofs/. Run './demo start' first."
+      exit 1
+    fi
+    echo ""
+    echo "  ZK-Proctor — Verifying Latest Proof"
+    echo ""
+    echo "  Proof: $PROOF"
+    echo ""
+    EXAMINER="$DIR/../zk-proctor-examiner"
+    if [ -d "$EXAMINER/src" ]; then
+      cd "$EXAMINER"
+      python3 src/verify.py --proof "$DIR/$PROOF"
+    else
+      echo "  Examiner package not found at $EXAMINER"
+      echo "  Extract zk-proctor-examiner.tar.gz next to this folder."
+    fi
+    ;;
+  *)
+    echo ""
+    echo "  ZK-Proctor Demo"
+    echo "  ==============="
+    echo ""
+    echo "  ./demo test      Run all tests (no desktop needed)"
+    echo "  ./demo start     Start proctored session (live)"
+    echo "  ./demo verify    Verify the latest proof"
+    echo ""
+    ;;
+esac

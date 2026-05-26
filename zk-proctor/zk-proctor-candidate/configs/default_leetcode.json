@@ -1,0 +1,88 @@
+{
+  "profile_name": "LeetCode Coding Challenge",
+  "version": "3.0",
+
+  "constraints": {
+
+    "allowed_domains": {
+      "values": [
+        "leetcode.com",
+        "*.leetcode.com",
+        "www.google.com",
+        "google.com"
+      ],
+      "mode": "whitelist"
+    },
+
+    "forbidden_processes": {
+      "mode": "blacklist",
+      "values": [
+        "whatsapp",
+        "telegram",
+        "discord",
+        "slack",
+        "signal",
+        "teams",
+        "zoom",
+        "skype",
+        "code",
+        "pycharm",
+        "intellij",
+        "sublime",
+        "atom",
+        "chatgpt"
+      ]
+    },
+
+    "allowed_processes": {
+      "values": []
+    },
+
+    "timing": {
+      "exam_duration_minutes": 120,
+      "max_gap_between_events_seconds": 5,
+      "polling_interval_seconds": 1
+    },
+
+    "browser_rules": {
+      "allow_new_tabs": true,
+      "max_tabs": 10,
+      "allow_devtools": false,
+      "allow_incognito": false
+    },
+
+    "screenshot_detection": {
+      "enabled": true,
+      "block_printscreen": true,
+      "detect_snipping_tools": true,
+      "forbidden_screenshot_tools": [
+        "gnome-screenshot",
+        "flameshot",
+        "shutter",
+        "scrot",
+        "spectacle",
+        "xfce4-screenshooter"
+      ]
+    },
+
+    "clipboard_monitoring": {
+      "enabled": true,
+      "max_paste_length_chars": 500,
+      "log_copy_events": true
+    },
+
+    "integrity": {
+      "detect_vm": true,
+      "detect_screen_sharing": true,
+      "require_single_monitor": false
+    }
+  },
+
+  "proof_config": {
+    "hash_algorithm": "sha256",
+    "trace_granularity": "per_second",
+    "include_process_hashes": true,
+    "include_url_hashes": true,
+    "include_window_title_hashes": true
+  }
+}

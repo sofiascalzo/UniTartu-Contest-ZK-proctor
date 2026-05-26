@@ -1,0 +1,117 @@
+{
+  "profile": "LeetCode Coding Challenge",
+  "config_hash": "974407470fc66b566b50ffb3e482fd5fcd9bae2bec77137da28d81e2cf0ebfc4",
+  "trace": [
+    {
+      "step": 0,
+      "timestamp": 100.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 1,
+      "timestamp": 100.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c342111a5125aa0c9df8a59d7805f477d56fb5ead861f47a9a67b302ef0fdc6",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 2,
+      "timestamp": 101.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 3,
+      "timestamp": 101.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c342111a5125aa0c9df8a59d7805f477d56fb5ead861f47a9a67b302ef0fdc6",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 4,
+      "timestamp": 102.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 5,
+      "timestamp": 102.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c342111a5125aa0c9df8a59d7805f477d56fb5ead861f47a9a67b302ef0fdc6",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 6,
+      "timestamp": 103.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 7,
+      "timestamp": 103.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c342111a5125aa0c9df8a59d7805f477d56fb5ead861f47a9a67b302ef0fdc6",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 8,
+      "timestamp": 104.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 9,
+      "timestamp": 104.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c342111a5125aa0c9df8a59d7805f477d56fb5ead861f47a9a67b302ef0fdc6",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    }
+  ],
+  "violations": [],
+  "summary": {
+    "profile": "LeetCode Coding Challenge",
+    "total_events": 10,
+    "compliant_events": 10,
+    "compliance_ratio": 1.0,
+    "total_violations": 0,
+    "critical_violations": 0,
+    "is_valid": true,
+    "duration_seconds": 4.0
+  }
+}

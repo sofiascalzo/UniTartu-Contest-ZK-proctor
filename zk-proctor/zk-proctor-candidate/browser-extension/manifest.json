@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "ZK-Proctor Tab Monitor",
+  "version": "2.0",
+  "description": "Reports all open tab URLs to the ZK-Proctoring agent for exam integrity verification. Required for proctored sessions.",
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  }
+}

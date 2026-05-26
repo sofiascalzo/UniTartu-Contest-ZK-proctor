@@ -1,0 +1,2014 @@
+{
+  "profile": "LeetCode Coding Challenge",
+  "config_hash": "974407470fc66b566b50ffb3e482fd5fcd9bae2bec77137da28d81e2cf0ebfc4",
+  "trace": [
+    {
+      "step": 0,
+      "timestamp": 1000.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 1,
+      "timestamp": 1000.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 2,
+      "timestamp": 1000.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 3,
+      "timestamp": 1000.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 4,
+      "timestamp": 1000.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 5,
+      "timestamp": 1000.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 6,
+      "timestamp": 1001.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 7,
+      "timestamp": 1001.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 8,
+      "timestamp": 1001.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 9,
+      "timestamp": 1001.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 10,
+      "timestamp": 1001.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 11,
+      "timestamp": 1001.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 12,
+      "timestamp": 1002.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 13,
+      "timestamp": 1002.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 14,
+      "timestamp": 1002.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 15,
+      "timestamp": 1002.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 16,
+      "timestamp": 1002.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 17,
+      "timestamp": 1002.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 18,
+      "timestamp": 1003.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 19,
+      "timestamp": 1003.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 20,
+      "timestamp": 1003.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 21,
+      "timestamp": 1003.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 22,
+      "timestamp": 1003.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 23,
+      "timestamp": 1003.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 24,
+      "timestamp": 1004.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 25,
+      "timestamp": 1004.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 26,
+      "timestamp": 1004.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 27,
+      "timestamp": 1004.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 28,
+      "timestamp": 1004.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 29,
+      "timestamp": 1004.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 30,
+      "timestamp": 1005.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 31,
+      "timestamp": 1005.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 32,
+      "timestamp": 1005.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 33,
+      "timestamp": 1005.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 34,
+      "timestamp": 1005.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 35,
+      "timestamp": 1005.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 36,
+      "timestamp": 1006.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 37,
+      "timestamp": 1006.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 38,
+      "timestamp": 1006.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 39,
+      "timestamp": 1006.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 40,
+      "timestamp": 1006.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 41,
+      "timestamp": 1006.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 42,
+      "timestamp": 1007.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 43,
+      "timestamp": 1007.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 44,
+      "timestamp": 1007.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 45,
+      "timestamp": 1007.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 46,
+      "timestamp": 1007.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 47,
+      "timestamp": 1007.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 48,
+      "timestamp": 1008.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 49,
+      "timestamp": 1008.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 50,
+      "timestamp": 1008.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 51,
+      "timestamp": 1008.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 52,
+      "timestamp": 1008.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 53,
+      "timestamp": 1008.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 54,
+      "timestamp": 1009.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 55,
+      "timestamp": 1009.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 56,
+      "timestamp": 1009.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 57,
+      "timestamp": 1009.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 58,
+      "timestamp": 1009.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 59,
+      "timestamp": 1009.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 60,
+      "timestamp": 1010.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 61,
+      "timestamp": 1010.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 62,
+      "timestamp": 1010.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 63,
+      "timestamp": 1010.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 64,
+      "timestamp": 1010.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 65,
+      "timestamp": 1010.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 66,
+      "timestamp": 1011.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 67,
+      "timestamp": 1011.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 68,
+      "timestamp": 1011.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 69,
+      "timestamp": 1011.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 70,
+      "timestamp": 1011.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 71,
+      "timestamp": 1011.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 72,
+      "timestamp": 1012.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 73,
+      "timestamp": 1012.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 74,
+      "timestamp": 1012.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 75,
+      "timestamp": 1012.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 76,
+      "timestamp": 1012.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 77,
+      "timestamp": 1012.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 78,
+      "timestamp": 1013.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 79,
+      "timestamp": 1013.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 80,
+      "timestamp": 1013.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 81,
+      "timestamp": 1013.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 82,
+      "timestamp": 1013.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 83,
+      "timestamp": 1013.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 84,
+      "timestamp": 1014.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 85,
+      "timestamp": 1014.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 86,
+      "timestamp": 1014.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 87,
+      "timestamp": 1014.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 88,
+      "timestamp": 1014.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 89,
+      "timestamp": 1014.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 90,
+      "timestamp": 1015.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 91,
+      "timestamp": 1015.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 92,
+      "timestamp": 1015.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 93,
+      "timestamp": 1015.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 94,
+      "timestamp": 1015.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 95,
+      "timestamp": 1015.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 96,
+      "timestamp": 1016.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 97,
+      "timestamp": 1016.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 98,
+      "timestamp": 1016.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 99,
+      "timestamp": 1016.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 100,
+      "timestamp": 1016.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 101,
+      "timestamp": 1016.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 102,
+      "timestamp": 1017.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 103,
+      "timestamp": 1017.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 104,
+      "timestamp": 1017.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 105,
+      "timestamp": 1017.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 106,
+      "timestamp": 1017.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 107,
+      "timestamp": 1017.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 108,
+      "timestamp": 1018.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 109,
+      "timestamp": 1018.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 110,
+      "timestamp": 1018.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 111,
+      "timestamp": 1018.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 112,
+      "timestamp": 1018.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 113,
+      "timestamp": 1018.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 114,
+      "timestamp": 1019.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 115,
+      "timestamp": 1019.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 116,
+      "timestamp": 1019.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 117,
+      "timestamp": 1019.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 118,
+      "timestamp": 1019.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 119,
+      "timestamp": 1019.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 120,
+      "timestamp": 1020.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 121,
+      "timestamp": 1020.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 122,
+      "timestamp": 1020.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 123,
+      "timestamp": 1020.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 124,
+      "timestamp": 1020.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 125,
+      "timestamp": 1020.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 126,
+      "timestamp": 1021.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 127,
+      "timestamp": 1021.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 128,
+      "timestamp": 1021.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 129,
+      "timestamp": 1021.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 130,
+      "timestamp": 1021.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 131,
+      "timestamp": 1021.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 132,
+      "timestamp": 1022.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 133,
+      "timestamp": 1022.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 134,
+      "timestamp": 1022.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 135,
+      "timestamp": 1022.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 136,
+      "timestamp": 1022.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 137,
+      "timestamp": 1022.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 138,
+      "timestamp": 1023.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 139,
+      "timestamp": 1023.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 140,
+      "timestamp": 1023.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 141,
+      "timestamp": 1023.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 142,
+      "timestamp": 1023.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 143,
+      "timestamp": 1023.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 144,
+      "timestamp": 1024.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 145,
+      "timestamp": 1024.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 146,
+      "timestamp": 1024.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 147,
+      "timestamp": 1024.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 148,
+      "timestamp": 1024.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 149,
+      "timestamp": 1024.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 150,
+      "timestamp": 1025.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 151,
+      "timestamp": 1025.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 152,
+      "timestamp": 1025.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 153,
+      "timestamp": 1025.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 154,
+      "timestamp": 1025.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 155,
+      "timestamp": 1025.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 156,
+      "timestamp": 1026.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 157,
+      "timestamp": 1026.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 158,
+      "timestamp": 1026.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 159,
+      "timestamp": 1026.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 160,
+      "timestamp": 1026.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 161,
+      "timestamp": 1026.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 162,
+      "timestamp": 1027.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 163,
+      "timestamp": 1027.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 164,
+      "timestamp": 1027.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 165,
+      "timestamp": 1027.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 166,
+      "timestamp": 1027.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 167,
+      "timestamp": 1027.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 168,
+      "timestamp": 1028.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 169,
+      "timestamp": 1028.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 170,
+      "timestamp": 1028.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 171,
+      "timestamp": 1028.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 172,
+      "timestamp": 1028.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 173,
+      "timestamp": 1028.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 174,
+      "timestamp": 1029.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "heartbeat"
+    },
+    {
+      "step": 175,
+      "timestamp": 1029.0,
+      "window_hash": "d20b2118208032dadbdd9c55439990c4f66ed8e70dd9a670f2c73d546d926a56",
+      "process_hashes": [],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "window_focus"
+    },
+    {
+      "step": 176,
+      "timestamp": 1029.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "6c02d9aa22bf465db54b5e4c17e345a6f0d5db9b2c219529fec5be0ba38d3421",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "url_navigation"
+    },
+    {
+      "step": 177,
+      "timestamp": 1029.0,
+      "window_hash": "",
+      "process_hashes": [
+        "16e5f60f207a1a0073451c35a9d315d17fdc17d7fab66449b00cdfaadc8b249e"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 178,
+      "timestamp": 1029.0,
+      "window_hash": "",
+      "process_hashes": [
+        "12e762d84a7328b861e35b4034a339131281bf3cc6fdd8c727eda269563c7fa0"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 179,
+      "timestamp": 1029.0,
+      "window_hash": "",
+      "process_hashes": [
+        "a6142ee8fb50c90c30ebe0eff834857883abb8e480da48e6b8b82afe4437538b"
+      ],
+      "url_hash": "",
+      "is_compliant": true,
+      "violation_count": 0,
+      "event_type": "process_list"
+    },
+    {
+      "step": 180,
+      "timestamp": 1031.0,
+      "window_hash": "",
+      "process_hashes": [],
+      "url_hash": "3fc9c444f27b836617065cbfc089974064f2c8285e5941a10cde4be6a98aecc2",
+      "is_compliant": false,
+      "violation_count": 1,
+      "event_type": "url_navigation"
+    }
+  ],
+  "violations": [
+    {
+      "timestamp": 1031.0,
+      "constraint": "domain_whitelist",
+      "severity": "critical",
+      "event_hash": "3fc9c444f27b836617065cbfc089974064f2c8285e5941a10cde4be6a98aecc2"
+    }
+  ],
+  "summary": {
+    "profile": "LeetCode Coding Challenge",
+    "total_events": 181,
+    "compliant_events": 180,
+    "compliance_ratio": 0.994475138121547,
+    "total_violations": 1,
+    "critical_violations": 1,
+    "is_valid": false,
+    "duration_seconds": 31.0
+  }
+}

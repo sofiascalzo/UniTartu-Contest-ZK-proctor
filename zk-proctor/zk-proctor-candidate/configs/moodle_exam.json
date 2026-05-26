@@ -1,0 +1,90 @@
+{
+  "profile_name": "Moodle University Exam",
+  "version": "1.0",
+
+  "constraints": {
+
+    "allowed_domains": {
+      "description": "Only Moodle instance and Python docs allowed",
+      "values": [
+        "moodle.ut.ee",
+        "*.moodle.ut.ee",
+        "docs.python.org",
+        "*.docs.python.org"
+      ],
+      "mode": "whitelist"
+    },
+
+    "forbidden_processes": {
+      "values": [
+        "whatsapp",
+        "telegram",
+        "discord",
+        "slack",
+        "signal",
+        "teams",
+        "zoom",
+        "skype",
+        "code",
+        "pycharm",
+        "intellij",
+        "sublime"
+      ]
+    },
+
+    "allowed_processes": {
+      "values": [
+        "firefox",
+        "chromium",
+        "chrome",
+        "gnome-shell",
+        "Xwayland",
+        "pulseaudio",
+        "pipewire"
+      ]
+    },
+
+    "timing": {
+      "exam_duration_minutes": 90,
+      "max_gap_between_events_seconds": 3,
+      "polling_interval_seconds": 1
+    },
+
+    "browser_rules": {
+      "allow_new_tabs": true,
+      "max_tabs": 3,
+      "allow_devtools": false,
+      "allow_incognito": false
+    },
+
+    "screenshot_detection": {
+      "enabled": true,
+      "block_printscreen": true,
+      "detect_snipping_tools": true,
+      "forbidden_screenshot_tools": [
+        "gnome-screenshot",
+        "flameshot",
+        "shutter",
+        "scrot"
+      ]
+    },
+
+    "clipboard_monitoring": {
+      "enabled": false
+    },
+
+    "integrity": {
+      "detect_vm": true,
+      "detect_screen_sharing": true,
+      "require_single_monitor": false
+    }
+  },
+
+  "proof_config": {
+    "hash_algorithm": "sha256",
+    "trace_granularity": "per_second",
+    "include_process_hashes": true,
+    "include_url_hashes": true,
+    "include_window_title_hashes": true
+  }
+}

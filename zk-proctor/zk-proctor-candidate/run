@@ -1,0 +1,57 @@
+#!/bin/bash
+DIR="$(cd "$(dirname "$0")" && pwd)"
+cd "$DIR"
+
+case "$1" in
+  start)
+    echo "Starting exam session (normal mode)..."
+    echo "Press Ctrl+C to stop."
+    CONFIG="${2:-configs/default_leetcode.json}"
+    python src/session.py --config "$CONFIG" --duration 0
+    ;;
+  start-debug)
+    echo "Starting exam session (debug mode)..."
+    echo "Every URL and process check will be shown."
+    echo "Press Ctrl+C to stop."
+    CONFIG="${2:-configs/default_leetcode.json}"
+    python src/session.py --config "$CONFIG" --duration 0 --debug
+    ;;
+  start-checkpoint)
+    SERVER="${2:-http://localhost:9385}"
+    CONFIG="${3:-configs/default_leetcode.json}"
+    echo "Starting exam session with checkpoints to $SERVER ..."
+    echo "Press Ctrl+C to stop."
+    python src/session.py --config "$CONFIG" --duration 0 \
+      --checkpoint-url "$SERVER" --checkpoint-interval 10 --debug
+    ;;
+  test)
+    echo "Running constraint engine tests..."
+    python src/test_constraints.py
+    echo ""
+    echo "Running STARK prover tests..."
+    python src/test_stark.py
+    echo ""
+    echo "Running integrated v2 tests..."
+    python src/test_integrated.py
+    ;;
+  help|*)
+    echo ""
+    echo "  ZK-Proctor — Candidate Commands"
+    echo "  ================================"
+    echo ""
+    echo "  ./run start                Start exam session (normal mode)"
+    echo "  ./run start-debug          Start exam session (shows every check)"
+    echo "  ./run start-checkpoint     Start with checkpoint server"
+    echo "  ./run test                 Run all tests"
+    echo ""
+    echo "  Options:"
+    echo "    ./run start configs/moodle_exam.json    Use a different config"
+    echo "    ./run start-checkpoint http://prof:9385  Specify server URL"
+    echo ""
+    echo "  Setup (run once):"
+    echo "    sudo apt install xdotool xclip"
+    echo "    pip install psutil websockets"
+    echo "    Chrome: chrome://extensions → Load unpacked → browser-extension/"
+    echo ""
+    ;;
+esac

@@ -1,0 +1,65 @@
+#!/bin/bash
+DIR="$(cd "$(dirname "$0")" && pwd)"
+cd "$DIR"
+
+case "$1" in
+  verify)
+    PROOF="$2"
+    if [ -z "$PROOF" ]; then
+      echo "Usage: ./run verify path/to/proof.json"
+      echo "       ./run verify path/to/proof.json --debug"
+      exit 1
+    fi
+    shift 2
+    python src/verify.py --proof "$PROOF" "$@"
+    ;;
+  verify-with-checkpoints)
+    PROOF="$2"
+    CHECKPOINTS="$3"
+    if [ -z "$PROOF" ] || [ -z "$CHECKPOINTS" ]; then
+      echo "Usage: ./run verify-with-checkpoints proof.json checkpoints.json"
+      exit 1
+    fi
+    python src/verify.py --proof "$PROOF" --checkpoints "$CHECKPOINTS" --debug
+    ;;
+  verify-all)
+    FOLDER="${2:-.}"
+    echo "Batch verifying all proofs in $FOLDER ..."
+    echo ""
+    for f in "$FOLDER"/*_stark_proof.json; do
+      if [ -f "$f" ]; then
+        echo "=== $(basename $f) ==="
+        python src/verify.py --proof "$f"
+        echo ""
+      fi
+    done
+    ;;
+  server)
+    PORT="${2:-9385}"
+    echo "Starting checkpoint server on port $PORT ..."
+    echo "Candidates connect with: --checkpoint-url http://YOUR_IP:$PORT"
+    python src/checkpoint_server.py --port "$PORT"
+    ;;
+  test-wolfram)
+    echo "To run Wolfram tests, open Mathematica and execute:"
+    echo ""
+    echo "  SetDirectory[\"$DIR/wolfram\"]"
+    echo "  Get[\"TestSTARK.wl\"]"
+    echo ""
+    ;;
+  help|*)
+    echo ""
+    echo "  ZK-Proctor — Examiner Commands"
+    echo "  ==============================="
+    echo ""
+    echo "  ./run verify proof.json              Verify a proof"
+    echo "  ./run verify proof.json --debug      Verify with detailed output"
+    echo "  ./run verify-with-checkpoints p.json c.json"
+    echo "                                       Verify + check hash chain"
+    echo "  ./run verify-all folder/             Batch verify all proofs"
+    echo "  ./run server                         Start checkpoint server (:9385)"
+    echo "  ./run server 8080                    Start on custom port"
+    echo "  ./run test-wolfram                   Show Wolfram test instructions"
+    echo ""
+    ;;
+esac
